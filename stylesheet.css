@@ -1,0 +1,96 @@
+/*FONTS*/
+@font-face {
+	font-family: title;
+	src: url("title.ttf");
+}
+
+@font-face {
+	font-family: povezave;
+	src: url("povezave.ttf");
+}
+/*FONTS OVER*/
+body {
+	margin: 0px;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+.wallpaper {
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	margin-top: 0px;
+	position: fixed;
+}
+
+.titletext {
+	font-family: title;
+	font-size: 150px;
+	color: #321B3A;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1.5px solid black;
+}
+
+.logo {
+	height: 125px;
+}
+
+.povezave {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-family: povezave;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+li {
+	list-style-type: none;
+}
+
+.bttns {
+	display: inline-block;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 5px;
+	color: blue;
+	text-decoration: none;
+	background-color: rgba(45,45,45,0.7);
+	height: 30px;
+}
+
+.bttns:hover, .bttns:focus, .bttns:active {
+	-webkit-transform: scale(1.6);
+	transform: scale(1.6);
+}
+
+.googlee {
+	height: 30px;
+}
+
+hr {
+	height: 2px;
+	background-color: black;
+	border: none;
+}
